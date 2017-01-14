@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         browser = (WebView)findViewById(R.id.browser);
-        browser.loadUrl("https://morning-eyrie-54020.herokuapp.com/");
+        browser.loadUrl("https://helping-hand-ucd.herokuapp.com/");
         browser.setWebViewClient(new WebViewClient());
     }
 
